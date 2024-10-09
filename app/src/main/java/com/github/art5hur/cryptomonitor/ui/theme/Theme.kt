@@ -1,4 +1,4 @@
-package br.com.fiap.cryptomonitor.ui.theme
+package com.github.art5hur.cryptomonitor.ui.theme
 
 import android.app.Activity
 import android.os.Build

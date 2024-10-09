@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "br.com.fiap.cryptomonitor"
+    namespace = "com.github.art5hur.cryptomonitor"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.com.fiap.cryptomonitor"
+        applicationId = "com.github.art5hur.cryptomonitor"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -64,12 +64,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation("androidx.appcompat:appcompat:1.7.0")
+
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.activity:activity-ktx:1.7.0")
-
-    implementation("androidx.appcompat:appcompat:1.4.1")
-
-
-
 }

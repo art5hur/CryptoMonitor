@@ -1,4 +1,4 @@
-package br.com.fiap.cryptomonitor
+package com.github.art5hur.cryptomonitor
 
 import org.junit.Test
 
